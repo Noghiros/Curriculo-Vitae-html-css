@@ -1,0 +1,35 @@
+
+/*seletor por elemento*/
+body {
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, Times;
+    color:rgb(20, 20, 20) ;
+}
+
+/*seletor por id*/
+#titulo {
+    color:rgb(0, 0, 175);
+    font-family: 'Times New Roman', serif;
+    font-size: 35px;
+    font-style: italic;    
+}
+
+/*seletor por classe*/
+.h2 {
+    color:rgb(0, 0, 150);
+    font-family: 'Arial', serif;
+    font-weight: bold;
+    background-color:rgb(150, 200, 200);
+}
+
+/*seletor por atributo*/
+a[href="https://github.com/Noghiros"] {
+    color: rgb(0, 102, 204);
+    text-decoration: underline;
+}
+
+/*seletor por pseudo-classe*/
+a:hover {
+    color: rgb(175, 90, 0);
+    text-decoration: underline;
+}
